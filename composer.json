@@ -1,0 +1,15 @@
+{
+    "name": "ict/my_mvc",
+    "authors": [
+        {
+            "name": "Muhit Asraf",
+            "email": "muhitasraf@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
