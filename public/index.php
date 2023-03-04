@@ -10,5 +10,6 @@ $app->router->get('/',function(){
 });
 
 $app->router->get('/contact','contact');
+$app->router->get('/contact/test','test');
 
 $app->run();

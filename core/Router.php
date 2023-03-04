@@ -18,7 +18,7 @@ class Router{
         $method = $this->request->getMethod();
         $callback = $this->routes[$method][$path] ?? false;
         if($callback === false){
-            return 'Route Not Found';
+            return '<h1>404 Not Found!<h1>';
         }
         if(is_string($callback)){
             return $this->renderView($callback);
